@@ -1,0 +1,82 @@
+body{display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+max-height: 100%;
+background-color: hsl(30, 38%, 92%);}
+.container{
+min-height:100vh;
+height: 350px;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 380px;
+    align-items: center;
+    border-radius:8px;
+    width: 520px;
+background-color: hsl(0, 0%, 100%);
+overflow: hidden;
+  }
+
+.card{ display: grid;
+
+}
+.card-2{padding-left: 15px;
+    padding-bottom: 20px;}
+h3{color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 450;
+      font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: small;
+    }
+p{font-size: 14px;
+color: hsl(228, 12%, 48%);
+font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 450;
+      font-style: normal;}
+
+.amount{color: hsl(158, 36%, 37%);
+    font-family: "Young Serif", serif;
+            font-weight: 700;
+            font-style:normal;
+          font-size: 30px;
+    }
+.discount{font-size: small;
+text-decoration: line-through;
+color: hsl(228, 12%, 48%);}
+.sect-3{display: grid;
+grid-template-columns: 1fr 1fr}
+
+h1{font-family: "Young Serif", serif;
+    font-weight: 700;
+    font-style:normal;
+  font-size: 25px;
+    }
+button{width: 95%;
+height: 40px;
+background-color: hsl(158, 36%, 37%);
+border: 0;
+margin-top: 10px;
+border-radius: 7px;
+color: hsl(0, 0%, 100%);
+cursor: pointer;
+}
+span{padding-left: 10px;
+text-transform: lowercase;
+text-transform: initial;}
+.svg{height: 14px;}
+button:hover{
+color: black;}
+
+
+
