@@ -16,10 +16,10 @@ min-height: 100vh;
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 380px;
+    height: 480px;
     align-items: center;
     border-radius:8px;
-    width: 520px;
+    width: 620px;
 background-color: hsl(0, 0%, 100%);
 overflow: hidden;
   }
@@ -49,24 +49,25 @@ font-family: "Montserrat", sans-serif;
     font-family: "Young Serif", serif;
             font-weight: 700;
             font-style:normal;
-          font-size: 30px;
+          font-size: 35px;
     }
 .discount{font-size: small;
 text-decoration: line-through;
-color: hsl(228, 12%, 48%);}
+color: hsl(228, 12%, 48%);
+padding-top: 20px;}
 .sect-3{display: grid;
 grid-template-columns: 1fr 1fr}
 
 h1{font-family: "Young Serif", serif;
     font-weight: 700;
     font-style:normal;
-  font-size: 25px;
+  font-size: 32px;
     }
 button{width: 95%;
-height: 40px;
+height: 50px;
 background-color: hsl(158, 36%, 37%);
 border: 0;
-margin-top: 10px;
+margin-top: 20px;
 border-radius: 7px;
 color: hsl(0, 0%, 100%);
 cursor: pointer;
@@ -77,6 +78,3 @@ text-transform: initial;}
 .svg{height: 14px;}
 button:hover{
 color: black;}
-
-
-
